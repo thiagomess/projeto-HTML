@@ -1,4 +1,4 @@
-Sobre mim
+﻿Sobre mim
 
 Moro em São Paulo mas atendo clientes do mundo todo. Sou conhecido por fazer produtos de qualidade, durabilidade e que agregam valor para meus clientes.
 Trabalho usando a web como plataforma, ou seja, respiro HTML5, CSS3 e JavaScript (ou melhor: ECMASCript). Crio sites para todos, seguindo as principais diretivas de acessibilidade, responsividade e web semântica, sem descuidar da qualidade de código.
@@ -23,3 +23,6 @@ Também já fui contratado para transformar grandes portais, como Terra e G1, em
 Comunidade
 
 Procuro repassar meu conhecimento para a comunidade. Para isso, já dei diversas palestras e mantenho um blog.
+
+
+---teste
