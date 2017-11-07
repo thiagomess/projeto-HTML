@@ -1,0 +1,30 @@
+
+blockquote{
+    background-color: #D9E5E3;
+    border: .5em solid #C2CCCA;
+    padding: 1em;
+    width: 30ch;
+    margin: 1rem 2rem;
+    box-sizing: border-box;
+}
+cite{
+    float: right;
+    font-style: italic;
+    display: block;
+    font
+}
+.citacao-fiat{
+    float: right;
+
+}
+.citacao-petrobras{
+    float: left;
+}
+
+strong{
+    font-weight: bold;
+
+}
+em{
+    font-style: italic;
+}

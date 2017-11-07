@@ -1,0 +1,19 @@
+.portfolio li{
+    background-color: #FAFFFC;
+    border: 8px solid black;
+    padding: 16px;
+    margin-right:  16px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 45%;
+    color: #ff849a;
+    
+}
+
+.portfolio img{
+    width: 100%;
+    
+    box-shadow: 0 0 10px #000;
+
+}
