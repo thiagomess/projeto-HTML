@@ -11,19 +11,30 @@ cite{
     float: right;
     font-style: italic;
     display: block;
-    font
-}
-.citacao-fiat{
-    float: right;
 
 }
-.citacao-petrobras{
+blockquote:hover,
+blockquote:focus{
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, .9);
+}
+blockquote:hover:nth-of-type(odd),
+blockquote:focus:nth-of-type(odd){
+  transform: rotate(5deg) scale(1.2);
+}
+
+blockquote:hover:nth-of-type(even),
+blockquote:focus:nth-of-type(even){
+  transform: rotate(-5deg) scale(1.2);
+}
+.citacao-bio:nth-of-type(odd){
+    float: right;
+}
+.citacao-bio:nth-of-type(even){
     float: left;
 }
 
 strong{
     font-weight: bold;
-
 }
 em{
     font-style: italic;

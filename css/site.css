@@ -1,6 +1,6 @@
 html{
     font-size: 120%;
-    
+
 }
 
 body {
@@ -9,12 +9,12 @@ body {
     }
 
 h1, h2, .subtitulo-principal {
-    font-family:"Open Sans Condensed","Arial", sans-serif;  
+    font-family:"Open Sans Condensed","Arial", sans-serif;
     }
 h1{
     text-transform: uppercase;
     font-size: 3em;
-    text-shadow: 4px 4px #000;  
+    text-shadow: 4px 4px #000;
 
     }
 .titulo-principal {
@@ -27,12 +27,12 @@ h1{
 }
 
 .titulo-principal h1{
-    
-    
+
+
     text-transform: uppercase;
 
 }
-.conteudo-texto{    
+.conteudo-texto{
     width: 720px;
     margin-left: auto;
     margin-right: auto;
@@ -70,7 +70,7 @@ p{
 .navegacao-site, .minha-foto{
     border-left: 10px solid black;
     border-bottom: 10px solid black;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     float: right;
 }
 
@@ -79,7 +79,7 @@ p{
     top: 0;
     right: 0;
     width: 230px;
-            
+
     }
 main{
     width: 80%;
@@ -100,12 +100,12 @@ main{
 
 }
 .icones-sociais a{
-   
+
     width: 40px;
     height: 40px;
     display: inline-block;
     text-indent: -9999px;
-    
+
 }
 .github{
      background-image: url(../img/github.png);
@@ -115,18 +115,25 @@ main{
 }
 .linkedin{
     background-image: url(../img/linkedin.png);
-    
 }
 
-
 #rodape-pagina{
-    background-color: rgba(0,0,0,.5);
+  background-image: radial-gradient(ellipse at left bottom,
+    rgba(60, 29, 61, 0.8),
+    rgba(60, 29, 61, 0.8) 65%,
+    black 65%,
+    black 70%,
+    transparent 70%,
+    transparent);
+    background-size: 30% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+
     color: #000;
     padding: 5px;
     clear: both;
     position: fixed;
     bottom: 0;
-    width: 100%;
     display: -webkit-box;
 
 }
@@ -155,4 +162,16 @@ strong{
 }
 em{
     font-style: italic;
+}
+
+main a:hover,
+main a:focus,
+footer a:hover,
+footer a:focus{
+    color: red;
+}
+
+.navegacao-site a:hover,
+.navegacao-site a:focus{
+  text-shadow: 0 0 .1em pink;
 }
