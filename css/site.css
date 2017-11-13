@@ -63,7 +63,7 @@ p{
     padding: 20px;
     text-align: center;
     float: right;
-    width: 15%;
+    width: calc(0.9 * 230px);
     position: relative;
     top:230px;
 }
@@ -72,6 +72,7 @@ p{
     border-bottom: 10px solid black;
     box-sizing: border-box;
     float: right;
+
 }
 
 .minha-foto{
@@ -82,16 +83,17 @@ p{
 
     }
 main{
-    width: 80%;
+    width: calc(100% - 0.9 * 230px);
     float: left;
     padding-bottom: 4em;
 }
 .navegacao-site a{
     color: inherit;
+    /*--text-decoration: none; */
 
 }
 .navegacao-site h1 {
-    font-size: 30px;
+    font-size: 26px;
     margin-bottom: 25px;
 }
 
@@ -104,7 +106,8 @@ main{
     width: 40px;
     height: 40px;
     display: inline-block;
-    text-indent: -9999px;
+    text-indent: -99999px;
+
 
 }
 .github{
@@ -174,4 +177,31 @@ footer a:focus{
 .navegacao-site a:hover,
 .navegacao-site a:focus{
   text-shadow: 0 0 .1em pink;
+}
+.icones-sociais-lateral a:hover::after,
+.icones-sociais-lateral a:focus::after{
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 100%;
+  right: 0;
+  text-indent: 0;
+  width: 200%;
+  background: black;
+  font-size: .75em;
+}
+
+.icoes-sociais-lateral a{
+  position: relative;
+}
+
+.icones-sociais-lateral a:hover::before,
+.icones-sociais-lateral a:focus::before{
+    content: '';
+    width: 1em;
+    height: 1em;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(.5em) rotate(45deg);
 }

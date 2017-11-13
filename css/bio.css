@@ -6,6 +6,7 @@ blockquote{
     width: 30ch;
     margin: 1rem 2rem;
     box-sizing: border-box;
+
 }
 cite{
     float: right;
@@ -33,9 +34,31 @@ blockquote:focus:nth-of-type(even){
     float: left;
 }
 
+
 strong{
     font-weight: bold;
 }
 em{
     font-style: italic;
+}
+
+.conteudo-texto > p::first-letter{
+   font-size: 200%;
+   font-weight: bold;
+   color: #3C1D3D;
+   text-shadow: 1px 1px #000;
+   margin-right: .2ch;
+   line-height: 1;
+}
+
+.citacao-bio::before{
+  content: '“';
+  font-size: 1000%;
+  color: rgba(176, 176, 176, .5);
+  position: absolute;
+  line-height: .8;
+
+}
+.citacao-bio > p{
+  position: relative;
 }
