@@ -63,6 +63,9 @@ input[value="outro"]:checked ~ input {
 label[for="nome"]{
   position: relative;
 }
+label[for="email"]{
+  position: relative;
+}
 label[for="nome"]::after{
   content: "";
   background-image: url(../img/usuario.png);
@@ -77,6 +80,26 @@ label[for="nome"]::after{
   background-repeat: no-repeat;
 }
 #nome{
+  width: calc(100% - 2em);
+  position: relative;
+  left: 2em;
+}
+
+label[for="email"]::after{
+  content: "";
+  background-image: url(../img/email.png);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-size: 50% 50%;
+  width: 2em;
+  height: 2em;
+  background-position: center;
+  background-color: #666;
+  background-repeat: no-repeat;
+}
+
+#email{
   width: calc(100% - 2em);
   position: relative;
   left: 2em;
