@@ -6,8 +6,30 @@ blockquote{
     width: 30ch;
     margin: 1rem 2rem;
     box-sizing: border-box;
+    transition: box-shadow 1s ease, transform 1s linear;
+    transition-delay: 0s, 1s;
+    position: relative;
+    animation: quica 1s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
 
 }
+@keyframes quica {
+  from{
+    top: 0;
+  }
+  90%{
+    transform: rotate(-2deg);
+  }
+  95%{
+    transform: rotate(2deg);
+  }
+  to{
+    top: 1em;
+  }
+
+}
+
 cite{
     float: right;
     font-style: italic;
@@ -17,6 +39,8 @@ cite{
 blockquote:hover,
 blockquote:focus{
     box-shadow: 0 0 0 99999px rgba(0, 0, 0, .9);
+    animation-play-state: paused;
+    transition-delay: 0s, 1s;
 }
 blockquote:hover:nth-of-type(odd),
 blockquote:focus:nth-of-type(odd){
