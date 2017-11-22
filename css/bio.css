@@ -1,4 +1,9 @@
 
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 blockquote{
     background-color: #D9E5E3;
     border: .5em solid #C2CCCA;

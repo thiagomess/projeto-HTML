@@ -9,6 +9,7 @@ body{
             perspective: 6px;
     -webkit-perspective-origin: 50% 160px;
             perspective-origin: 50% 160px;
+            display: block;
 }
 html, body{
     height: 100%;
@@ -186,16 +187,28 @@ header {
     color: #FFF;
 }
 .trabalhos ul {
-    overflow: hidden;
-    border: .5em solid black;
+    display: flex;
+
    }
+
 .trabalhos li {
-    float: left;
-    width: 33.333%;
+  flex: 1;
+    border: .5em solid #000;
 }
 .trabalhos img {
     width: 100%;
     display: block;
+}
+
+.trabalhos li:first-child{
+  order: 2;
+  transform: scale(1.2);
+}
+.trabahos li:nth-child(2){
+  order: 1;
+}
+.trabalhos li:last-child{
+  order: 3;
 }
 .blog {
     background-color: #999;

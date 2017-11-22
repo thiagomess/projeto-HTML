@@ -17,30 +17,13 @@ h1{
     text-shadow: 4px 4px #000;
 
     }
-    h1{
-      -webkit-animarion:aparece 2s ease-in;
-      animation: aparece 2s ease-in;
+    body {
+        display: flex;
+        flex-wrap: wrap;
     }
-    @-webkit-keyframes aparece {
-      0% {
-        opacity: 0;
-      }
-        100% {
-          opacity: 1;
-
-        }
-
-    }
-    @@keyframes aparece {
-      0%{
-        opacity: 0;
-      }
-        100%{
-          opacity: 1;
-
-        }
-
-    }
+    main {
+    flex-grow: 1;
+}
 
 .titulo-principal {
     text-align: center;
@@ -87,14 +70,14 @@ p{
     color: #F2FFFC;
     padding: 20px;
     text-align: center;
-    float: right;
+
     width: calc(0.9 * 230px);
-    position: relative;
-    top:230px;
+     padding-top: calc(300px + 1em);
+
 }
 .navegacao-site, .minha-foto{
     border-left: 10px solid black;
-    border-bottom: 10px solid black;
+
     box-sizing: border-box;
     float: right;
 
@@ -105,6 +88,7 @@ p{
     top: 0;
     right: 0;
     width: 230px;
+    border-bottom: .5em solid black;
 
     }
 main{

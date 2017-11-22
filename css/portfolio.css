@@ -5,15 +5,22 @@
     margin-right:  16px;
     margin-bottom: 16px;
     box-sizing: border-box;
-    display: inline-block;
     width: 45%;
     color: #ff849a;
-    
+    flex: 1 1 45%;
+
+}
+.portfolio{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio img{
     width: 100%;
-    
+
     box-shadow: 0 0 10px #000;
 
+}
+.portfolio li:first-child{
+    flex-basis: 100%;
 }
