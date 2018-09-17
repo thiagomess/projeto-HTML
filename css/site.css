@@ -116,6 +116,7 @@ main{
     height: 40px;
     display: inline-block;
     text-indent: -99999px;
+	position: relative;
 
 
 }
@@ -187,6 +188,11 @@ footer a:focus{
 .navegacao-site a:focus{
   text-shadow: 0 0 .1em pink;
 }
+
+.icoes-sociais-lateral a{
+  position: relative;
+}
+
 .icones-sociais-lateral a:hover::after,
 .icones-sociais-lateral a:focus::after{
   content: attr(data-tooltip);
@@ -194,13 +200,10 @@ footer a:focus{
   top: 100%;
   right: 0;
   text-indent: 0;
-  width: 200%;
+  width: 300%;
   background: black;
   font-size: .75em;
-}
-
-.icoes-sociais-lateral a{
-  position: relative;
+  
 }
 
 .icones-sociais-lateral a:hover::before,
